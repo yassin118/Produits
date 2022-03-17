@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Produits</string>
+    <string name="produits">Produits</string>
+    <string name="prix_produit1">210Dt</string>
+    <string name="prix_produit2">150Dt</string>
+    <string name="prix_produit3">109Dt</string>
+    <string name="prix_produit4">149Dt</string>
+    <string name="product_detail">Détails du produit</string>
+    <string name="Description">Description</string>
+    <string name="prix">Prix</string>
+    <string name="desc1">Un appareil qui offre la possibilité d enregistrer le rythme cardiaque du fœtus.</string>
+    <string name="desc2">Un appareil qui offre la possibilité d enregistrer le rythme cardiaque du fœtus et déclare une alerte en cas de bardycardie/tachycardie du foetus</string>
+>
+    <string name="ajout">Ajouter au panier</string>
+    <string name="rate">Rate</string>
+
+
+</resources>

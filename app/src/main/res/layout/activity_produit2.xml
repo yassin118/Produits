@@ -197,7 +197,7 @@
                 app:srcCompat="@drawable/shopping_cart" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/achat2"
                 android:layout_width="160dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="60dp"

@@ -5,7 +5,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Achat">
+    tools:context=".Achat"
+    android:background="@color/white"
+    >
 
   <TextView
       android:id="@+id/ok"
@@ -17,32 +19,34 @@
       android:layout_marginEnd="15dp"
       android:layout_marginRight="15dp"
       android:layout_marginBottom="15dp"
-      android:text="S'il vous plaît écrivez vos détails d'expédition"
+      android:text="S'il vous plaît écrivez vos détails peronnel"
       android:textAlignment="center"
       android:textColor="@color/blue"
       android:textSize="18dp"
       android:textStyle="bold"></TextView>
 
   <EditText
+      android:id="@+id/nom"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:layout_below="@+id/ok"
       android:layout_marginLeft="30dp"
       android:layout_marginTop="60dp"
-      android:layout_below="@+id/ok"
-android:id="@+id/nom"
       android:layout_marginRight="30dp"
+      android:backgroundTint="@color/black"
       android:hint="Nom"
-      ></EditText>
+      android:minHeight="48dp"></EditText>
 
   <EditText
+      android:id="@+id/prenom"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:layout_below="@+id/nom"
       android:layout_marginLeft="30dp"
       android:layout_marginTop="60dp"
-      android:layout_below="@+id/nom"
       android:layout_marginRight="30dp"
-      android:id="@+id/prenom"
-      android:hint="Prénom"></EditText>
+      android:hint="Prénom"
+      android:minHeight="48dp"></EditText>
 
   <EditText
       android:layout_width="match_parent"
@@ -52,7 +56,9 @@ android:id="@+id/nom"
       android:layout_below="@+id/prenom"
       android:layout_marginRight="30dp"
       android:id="@+id/num_telephone"
-      android:hint="Numéro de télephone"></EditText>
+      android:hint="Numéro de télephone"
+      android:minHeight="48dp"
+      ></EditText>
 
   <EditText
       android:id="@+id/adresse"
@@ -62,16 +68,32 @@ android:id="@+id/nom"
       android:layout_marginLeft="30dp"
       android:layout_marginTop="60dp"
       android:layout_marginRight="30dp"
-      android:hint="Adresse"></EditText>
+      android:hint="Adresse"
+      tools:ignore="TouchTargetSizeCheck"
+      android:minHeight="48dp"
+      ></EditText>
 
   <Button
       android:id="@+id/confirmer"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_below="@+id/adresse"
-      android:layout_margin="90dp"
 
-      android:text="Confirmer" />
+      android:layout_marginStart="90dp"
+      android:layout_marginTop="70dp"
+      android:layout_marginEnd="90dp"
+      android:layout_marginBottom="90dp"
+      android:backgroundTint="@color/blue"
+      android:text="Confirmer"
+
+      android:textColor="@color/white" />
+
+  <ImageView
+      android:id="@+id/imageView7"
+      android:layout_width="match_parent"
+      android:layout_height="176dp"
+      android:layout_marginTop="590dp"
+      app:srcCompat="@drawable/logo" />
 
 
 </RelativeLayout>
